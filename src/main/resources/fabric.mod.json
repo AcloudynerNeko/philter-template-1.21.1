@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "philter",
+	"version": "${version}",
+	"name": "Philter",
+	"description": "Add the Philter to Minecraft!",
+	"authors": [
+		"Acloudyner_Neko"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/philter/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"org.acnk.philter.Philter"
+		],
+		"fabric-datagen": [
+			"org.acnk.philter.PhilterDataGenerator"
+		],
+		"client": [
+			"org.acnk.philter.Client.PhilterClient"
+		]
+	},
+	"mixins": [
+		"philter.mixins.json"
+	],
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": "1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

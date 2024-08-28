@@ -1,0 +1,12 @@
+{
+  "effect.philter.estrus": "发情",
+  "itemGroup.philter.philter_group": "Spring药",
+  "message.estrus.0": "§a 来做爱 ~",
+  "message.estrus.1": "§a (看向下面）",
+  "message.estrus.2": "§a 哈……啊……",
+  "message.estrus.3": "§a 好想要 ~",
+  "item.philter.philter_potion.effect.empty": "Spring药",
+  "item.minecraft.potion.effect.philter_potion": "春药",
+  "item.minecraft.splash_potion.effect.philter_potion": "喷溅型春药",
+  "item.minecraft.lingering_potion.effect.philter_potion": "滞留型春药"
+}
